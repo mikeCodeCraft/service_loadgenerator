@@ -24,7 +24,7 @@ jobs:
         run: |
           docker build -t test-build-standalone:latest .
 
-       Berk-
+       
       - name: Log Execution Metadata
         run: |
           echo "Successfully compiled isolated container asset."
